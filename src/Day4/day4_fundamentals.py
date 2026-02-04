@@ -57,3 +57,11 @@ print("Customer Purchases: ",user_purchases)
 
 top_customers = max(user_purchases, key=user_purchases.get)
 print("Top Customers: ",top_customers)
+
+#Example 6
+
+a = {1,2,3}
+b = {3,4,5}
+print("Union: ",a | b)
+print("Intersection: ",a & b)
+print(3 in a)
