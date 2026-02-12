@@ -35,7 +35,7 @@ def start_robot():
     output_box.delete("1.0", tk.END)
 
     # Header
-    output_box.insert(tk.END, f"🤖 RoboController 1.0 - {robot_name}\n")
+    output_box.insert(tk.END, f"🤖 Nexify 1.0 - {robot_name}\n")
     output_box.insert(tk.END, "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n")
     output_box.insert(tk.END, f"📏 Target Distance: {distance_km} km\n")
     output_box.insert(tk.END, "🚀 Robot starting journey...\n\n")
@@ -44,7 +44,6 @@ def start_robot():
     num_checks = random.randint(3, 5)
     output_box.insert(tk.END, f"🔄 Performing {num_checks} random obstacle checks...\n\n")
 
-    # ✅ CHANGE MADE HERE: REMOVED "Rotate"
     directions = ["Left", "Right", "Forward", "Backward"]
     possible_obstacles = ["none", "wall", "object", "human"]
 
@@ -166,13 +165,13 @@ def start_robot():
 
 # ---------------- MODERN GUI DESIGN ----------------
 window = tk.Tk()
-window.title("RoboController 1.0")
+window.title("Nexify 1.0")
 window.geometry("800x600")
-window.configure(bg="#0F172A")  # Dark modern background
+window.configure(bg="#0F172A")
 
 title_label = tk.Label(
     window,
-    text="🤖 RoboController 1.0",
+    text="🤖 Nexify 1.0",
     font=("Segoe UI", 18, "bold"),
     fg="white",
     bg="#0F172A",
