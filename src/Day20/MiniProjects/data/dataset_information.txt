@@ -1,0 +1,21 @@
+DATASET INFORMATION
+
+Dataset Name: Customer Analytics Dataset
+
+Description:
+This dataset contains demographic and purchasing behavior
+information of customers. Each row represents one customer.
+
+Attributes:
+- Age: Age of customer
+- Gender: Gender category
+- AnnualIncome: Yearly income
+- SpendingScore: Customer spending tendency
+- Education: Educational qualification
+- City: Customer location
+- PreferredDevice: Device used for purchases
+
+Purpose:
+The dataset is used for Exploratory Data Analysis (EDA)
+to understand customer behavior patterns and relationships
+between demographic and purchasing variables.
